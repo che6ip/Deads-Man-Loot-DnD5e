@@ -1,0 +1,46 @@
+{
+  "id": "deads-man-loot-dnd5e",
+  "title": "Dead's Man Loot — D&D 5e",
+  "description": "Адаптер D&D 5e для базового модуля Dead's Man Loot: системные значения (мёртв ли актёр, какие предметы лутируются, редкость, монеты) плюс слой прав доступа через ГМа и кэш добычи для игроков.",
+  "version": "2.0.0",
+  "authors": [
+    {
+      "name": "Your Name",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "esmodules": ["deads-man-loot-dnd5e.mjs"],
+  "relationships": {
+    "requires": [
+      {
+        "id": "deads-man-loot",
+        "type": "module",
+        "active": true,
+        "compatibility": {
+          "minimum": "1.0.0"
+        }
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+        "compatibility": {
+          "minimum": "4.0.0"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "readme": "README.md",
+  "license": "MIT",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "flags": {}
+}
